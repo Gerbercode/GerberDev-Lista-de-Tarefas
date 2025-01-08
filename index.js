@@ -26,10 +26,10 @@ function mostrarTarefa() {
       novaLista +
       `       
         <li class="task ${item.concluida && "done"} ">
-        <img title="Concluir tarefa" src="./img/Checkmark.png" alt="concluido" onclick="concluirTarefa(${posicao})"> 
+        <img title="Concluir tarefa" src="Checkmark.png" alt="concluido" onclick="concluirTarefa(${posicao})"> 
         <p>${item.tarefa}</p>
             
-        <img title="Excluir tarefa" src="./img/Cancel.png" alt="excluir"  onclick = "deletarItem(${posicao})">
+        <img title="Excluir tarefa" src="Cancel.png" alt="excluir"  onclick = "deletarItem(${posicao})">
         </li> `;
   });
 
